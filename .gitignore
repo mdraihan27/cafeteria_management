@@ -5,7 +5,7 @@ Backend/venv/
 Backend/__pycache__/
 Backend/**/__pycache__/
 Backend/*.log
-Backend/.env
+
 
 # --- Frontend (.NET) ---------------------------------------------------
 Frontend/bin/
@@ -16,7 +16,8 @@ Frontend/**/obj/
 
 # --- OS / editor noise --------------------------------------------------
 .vs/
-.vscode/
 *.swp
 Thumbs.db
 .DS_Store
+config.bat
+node_modules

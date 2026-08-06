@@ -14,6 +14,8 @@ FastAPI and is a great way to understand the API without reading any
 frontend code.
 """
 
+import utils.transport
+import utils.session
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
