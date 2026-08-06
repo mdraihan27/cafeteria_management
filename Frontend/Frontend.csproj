@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <!-- Nullable reference types are turned off on purpose: this keeps
+         the code simpler to read for beginners (no "?" annotations
+         everywhere), at the cost of a little extra safety net. -->
+    <Nullable>disable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon></ApplicationIcon>
+    <AssemblyName>CafeteriaManagementSystem</AssemblyName>
+    <RootNamespace>Frontend</RootNamespace>
+  </PropertyGroup>
+
+</Project>

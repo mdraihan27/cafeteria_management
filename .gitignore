@@ -1,0 +1,22 @@
+context/
+
+# --- Backend (Python) ------------------------------------------------
+Backend/venv/
+Backend/__pycache__/
+Backend/**/__pycache__/
+Backend/*.log
+Backend/.env
+
+# --- Frontend (.NET) ---------------------------------------------------
+Frontend/bin/
+Frontend/obj/
+Frontend/**/bin/
+Frontend/**/obj/
+*.user
+
+# --- OS / editor noise --------------------------------------------------
+.vs/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
